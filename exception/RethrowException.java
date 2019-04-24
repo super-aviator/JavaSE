@@ -1,5 +1,5 @@
 /**
- * RethrowException 重抛异常知识点 :
+ * RethrowException 重抛异常知识点 : 
  * 1.重抛新的异常会丢失旧异常的异常信息。
  * 2.重抛旧异常之前，调用fillStackTrace()，会将栈帧重新填充为当前方法开始调用
  * 

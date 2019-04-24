@@ -19,6 +19,6 @@ public class EffectiveString {
     }
 
     public static void main(String[] args) {
-        
+
     }
 }
