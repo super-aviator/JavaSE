@@ -1,8 +1,6 @@
 /**
- * LostException
- * 异常丢失的两种情况：
- * 1：在finally块抛出新的异常，旧的异常信息会丢失
- * 2：在finally块使用return语句,try块只的异常就会丢失
+ * LostException 异常丢失的两种情况： 1：在finally块抛出新的异常，try块中抛出的旧的异常信息会丢失
+ * 2：在finally块使用return语句,try块抛出的异常就会丢失
  */
 public class LostException {
 
@@ -14,24 +12,21 @@ public class LostException {
         throw new TrivialException();
     }
 
-    public static void main(String[] args){
-        /* try{
-            LostException le=new LostException();
-            try{
+    public static void main(String[] args) {
+        try {
+            LostException le = new LostException();
+            try {
                 le.f();
-            }finally{
+            } finally {
                 le.g();
             }
-        }catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
-        } */
-        
-        try{
-            LostException le=new LostException();
-            le.f();
-        }finally{
-            return ;
         }
+
+        /*
+         * try{ //[1] LostException le=new LostException(); le.f(); }finally{ return; }
+         */
     }
 }
 
