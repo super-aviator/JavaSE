@@ -14,30 +14,31 @@ public class LostException {
     }
 
     public static void main(String[] args) {
-        try {
-            LostException le = new LostException();
-            try {
-                le.f();
-            } finally {
-                le.g();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        // [1]
         // try {
         //     LostException le = new LostException();
-        //     le.f();
-        // } finally {
-        //     return;
+        //     try {
+        //         le.f();
+        //     } finally {
+        //         // [2]
+        //         le.g();
+        //     }
+        // } catch (Exception e) {
+        //     e.printStackTrace();
         // }
+
+        // [2]
+        try {
+            LostException le = new LostException();
+            le.f();
+        } finally {
+            return;
+        }
 
     }
 }
 
-class VeryImportException extends Exception {
+class VeryImportException extends RuntimeException {
 }
 
-class TrivialException extends Exception {
+class TrivialException extends RuntimeException {
 }

@@ -19,5 +19,4 @@ public abstract class AbstractClass {
 
 //    private + abstract是唯一不被允许的组合
 //    private abstract void f();
-
 }
