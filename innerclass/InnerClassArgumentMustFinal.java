@@ -2,11 +2,16 @@
 /**
  * InnerArgumentMustFinal
  */
+
+interface InnerClass{
+    public void execute();
+}
+
 public class ArgumentMustFinal{
     
     /**
-     * 方法中的匿名内部类，如果想要使用方法中传进来的参数，必须使用final修饰该参数，以保证该参数不会被改变，如果确保在内部类中，
-     * 该参数没有被改变，则可以忽略final。
+     * java对闭包的支持：方法中的匿名内部类，如果想要使用方法中传进来的参数，必须使用final修饰该参数，以保证该参数不会被改变，如果确保在内部类中，
+     *                  该参数没有被改变，则可以省略final。
      */
     public InnerClass genericInnerClass(int x) {
         return new InnerClass(){
@@ -22,8 +27,4 @@ public class ArgumentMustFinal{
         ArgumentMustFinal argumentMustFinal=new ArgumentMustFinal();
         argumentMustFinal.genericInnerClass(10).execute();
     }
-}
-
-interface InnerClass{
-    public void execute();
 }
