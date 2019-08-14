@@ -7,7 +7,4 @@ package com.xqk.learn.javase.time;
  */
 public class OffsetDateTimeTest {
 
-    public static void main(String[] args) {
-
-    }
 }
