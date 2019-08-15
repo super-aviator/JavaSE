@@ -30,6 +30,3 @@ public class ShiftOperator {
         log.info("{}<<70: {}", Integer.toBinaryString(b), b << 70);
     }
 }
-
-// output:
-//     1000010000

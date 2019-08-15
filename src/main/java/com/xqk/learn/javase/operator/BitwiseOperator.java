@@ -16,20 +16,13 @@ public class BitwiseOperator {
         System.out.println(stepByStepOperators.m1() || stepByStepOperators.m2());
     }
 
-    public boolean m1() {
+    private boolean m1() {
         System.out.println("m1 has executed");
         return true;
     }
 
-    public boolean m2() {
+    private boolean m2() {
         System.out.println("m1 has executed");
         return true;
     }
 }
-
-// output:
-//     m1 has executed
-//     m1 has executed
-//     true
-//     m1 has executed
-//     true

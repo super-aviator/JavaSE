@@ -1,25 +1,32 @@
 package com.xqk.learn.javase.innerclass;
 
-interface Inter {
-}
-
 /**
- * InnerClassContructor
+ * InnerClassConstructor
+ *
+ * 匿名内部类实现接口或者抽象类的细微区别，但是没啥卵用，都达到了构造器的效果
+ *
+ * @author 熊乾坤
  */
 public class AnonymousInnerClassConstructor {
     public static void main(String[] args) {
-        AnonymousInnerClassConstructor innerClassContructor = new AnonymousInnerClassConstructor();
-        innerClassContructor.interfaceImpl();
-        innerClassContructor.AbstractImpl(10, 0).f();
+        AnonymousInnerClassConstructor innerClassConstructor = new AnonymousInnerClassConstructor();
+        innerClassConstructor.interfaceImpl(100);
+        innerClassConstructor.abstractImpl(10, 0).f();
+    }
+
+    interface Inter {
     }
 
     /**
-     * 接口的匿名内部类不能有构造器参数
+     * 接口的匿名内部类不能有构造器参数，但是可以通过实例初始化去模拟构造函数
      *
      * @return Inter对象
      */
-    public Inter interfaceImpl() {
+    private Inter interfaceImpl(int i) {
         return new Inter() {
+            {
+                System.out.println("initialize constructor: " + i);
+            }
         };
     }
 
@@ -30,10 +37,10 @@ public class AnonymousInnerClassConstructor {
      * @param x 测试数据
      * @return Base对象
      */
-    public Base AbstractImpl(int x, int y) {
-        return new Base(x) {
+    private Base abstractImpl(int x, int y) {
+        return new Base(x, y) {
             {
-                System.out.println("initialize constructor " + x);
+                System.out.println("initialize constructor: " + x + " " + y);
             }
 
             @Override
@@ -44,18 +51,13 @@ public class AnonymousInnerClassConstructor {
     }
 }
 
+/**
+ * 构造匿名内部类是首先会调用基类的构造器
+ */
 abstract class Base {
-    //首先调用基类构造器
-    Base(int i) {
+    Base(int i, int j) {
         System.out.println("Base:" + i);
     }
 
     public abstract void f();
 }
-
-/**
- * output:
- * Base:10
- * initialize constructor 10
- * Base f() 10
- */

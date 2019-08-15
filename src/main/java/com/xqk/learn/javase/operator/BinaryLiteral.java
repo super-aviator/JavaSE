@@ -3,7 +3,7 @@ package com.xqk.learn.javase.operator;
 /**
  * BinaryLiteral
  * <p>
- * 字面常量：
+ * 字面常量(后导)：
  * long:L/l
  * float：F/f
  * <p>
@@ -12,7 +12,7 @@ package com.xqk.learn.javase.operator;
  * 十六进制：0x:0X
  * 二进制：0b:0B 不能定义小数
  * <p>
- * Java7中新增了二进制字面常量(Literal):0b/0B,可以直接赋值到对应的数值类型中,需要注意取值范围。
+ * Java7中新增了二进制字面常量(Literal):0b/0B,可以直接赋值到对应的数值类型中,需要注意取值范围（如果超出范围会报错）。
  *
  * @author 熊乾坤
  */
