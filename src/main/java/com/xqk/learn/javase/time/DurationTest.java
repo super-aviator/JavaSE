@@ -14,7 +14,7 @@ class DurationTest {
 
     /**
      * Duration表示一段时间间隔，可以使用静态方法去创建两个LocalDateTime、LocalTime、Instant之间的间隔
-     * 值得注意的是Duration不能表示两个LocalDate之间的间隔,否则会抛UnsupportedTemporalTypeException异常
+     * 值得注意的是Duration不能表示两个LocalDate之间的间隔,否则会抛UnsupportedTemporalTypeException异常？？？
      */
     @Test
     void testCreateDuration() {

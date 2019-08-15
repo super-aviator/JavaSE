@@ -22,6 +22,7 @@ class InstantTest {
     void testCreateInstant() {
         //可以直接使用系统的毫秒时间创建Instant对象
         Instant instant = Instant.ofEpochMilli(System.currentTimeMillis());
+        log.info(instant.atZone(ZoneId.of("GMT+8")).toString());
 
         Long currentImtMillis = System.currentTimeMillis();
 //        从System.currentTimeMillis()创建Instant
