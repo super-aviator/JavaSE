@@ -1,16 +1,34 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Random;
 
 /**
  * Test
  */
 public class Test {
+    private static final Random RAND = new Random();
 
     public static void main(String[] args) {
-        HashMap<String, String> hashMap = new HashMap<>();
-        hashMap.put("HELO", "sdfdf");
-        for (Map.Entry<String, String> entity : hashMap.entrySet())
-            System.out.println(entity);
+//        HashMap<String, String> hashMap = new HashMap<>();
+//        hashMap.put("HELO", "sdfdf");
+//        for (Map.Entry<String, String> entity : hashMap.entrySet())
+//            System.out.println(entity);
+//        System.out.println(createRandomNum(10));
+//        System.out.println(Math.random());
+
+        StringBuilder result = new StringBuilder();
+        result.append("adfasdf-sdfad-sdf-");
+        System.out.println(result.deleteCharAt(result.length() - 1).toString());
+    }
+
+    public static String createRandomNum(int length) {
+        if (length <= 0) {
+            throw new IllegalArgumentException("生成随机数的长度必须大于零");
+        }
+
+        StringBuilder sb = new StringBuilder(length);
+        for (int i = 0; i < length; i++) {
+            sb.append(RAND.nextInt(10));
+        }
+        return sb.toString();
     }
 }
 
