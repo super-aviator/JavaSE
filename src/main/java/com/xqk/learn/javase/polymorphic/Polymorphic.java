@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
  * <p>
  * 1. 域访问不是多态的，在编译时就已经确定
  * 2. 非static和final方法是多态的，在编译时就已经绑定
- * 3. static方法或者private(隐式是final)不是多态的，没有多态的属性
+ * 3. static方法或者private(隐式是final)不是多态的，不是基类的接口，没有多态的属性
  *
  * @author 熊乾坤
  * @date 2018-8-20
