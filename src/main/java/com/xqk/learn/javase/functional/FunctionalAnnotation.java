@@ -17,20 +17,20 @@ public class FunctionalAnnotation {
         FunctionalInterfaceAnnotation f1 = (msg) -> msg;
         log.info(f1.message("你好"));
     }
-}
 
-/**
- * 上面的@FunctionalInterface 可以在只有一个方法的接口中注解，表示此接口是一个函数式接口。
- * 如果接口中的抽象方法多于一个，则编译会报错。
- */
-@SuppressWarnings("unused")
-interface NotFunctionalInterface {
-    String message(String msg);
+    @FunctionalInterface
+    private interface FunctionalInterfaceAnnotation {
+        String message(String msg);
+    }
 
-    String other(String msg);
-}
+    /**
+     * 上面的@FunctionalInterface 可以在只有一个方法的接口中注解，表示此接口是一个函数式接口。
+     * 如果接口中的抽象方法多于一个，则编译会报错。
+     */
+    @SuppressWarnings("unused")
+    private interface NotFunctionalInterface {
+        String message(String msg);
 
-@FunctionalInterface
-interface FunctionalInterfaceAnnotation {
-    String message(String msg);
+        String other(String msg);
+    }
 }

@@ -14,9 +14,18 @@ public class Test {
 //        System.out.println(createRandomNum(10));
 //        System.out.println(Math.random());
 
-        StringBuilder result = new StringBuilder();
-        result.append("adfasdf-sdfad-sdf-");
-        System.out.println(result.deleteCharAt(result.length() - 1).toString());
+//        StringBuilder result = new StringBuilder();
+//        result.append("adfasdf-sdfad-sdf-");
+//        System.out.println(result.deleteCharAt(result.length() - 1).toString());
+
+        String x = null;
+        switch (x) {
+            case "1":
+                System.out.println("1");
+                break;
+            default:
+                break;
+        }
     }
 
     public static String createRandomNum(int length) {

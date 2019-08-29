@@ -6,7 +6,7 @@ import java.util.function.IntSupplier;
 import java.util.function.Supplier;
 
 /**
- * ClosureSupport 闭包
+ * ClosureSupport 闭包支持
  * <p>
  * 闭包指的是返回lambda的方法中，lambda引用了外部的变量，这种情况就叫闭包。
  * 如果语言不能自动解决这个问题，那将变得非常具有挑战性。 能够解决这个问题的语言被称为支持闭包滴语言。

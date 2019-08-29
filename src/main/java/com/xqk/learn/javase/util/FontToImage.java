@@ -11,6 +11,8 @@ import java.io.File;
 import static com.xqk.learn.javase.util.ResolveDoc.resolveDoc;
 
 /**
+ * 将文字转换为对应的图片，图片后缀为.png
+ *
  * @author 熊乾坤
  */
 
@@ -21,7 +23,7 @@ class FontToImage {
     private static final int LINE_INTERVAL = 10;
 
     public static void main(String[] args) throws Exception {
-        File file = new File("E:\\JAVASE\\src\\main\\java\\com\\xqk\\learn\\javase\\util\\ResolveWordTest.doc");
+        File file = new File("E:\\JAVASE\\src\\main\\java\\com\\xqk\\learn\\javase\\util\\ResolveWord.doc");
         createImage(resolveDoc(file), new File("E:/a.png"), 600, 500);
     }
 

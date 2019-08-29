@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * 使用POI,获取docx文件的文字、字体、颜色信息
+ * 使用POI库,获取docx文件中的文字、字体、颜色、文字大小等信息
  *
  * @author 熊乾坤
  * @date 2019-8-23
@@ -23,29 +23,28 @@ import java.util.Objects;
 @Slf4j
 public class ResolveDocx {
     public static void main(String[] args) throws IOException {
-        log.info(JSON.toJSONString(resolve(new File("E:\\JAVASE\\src\\main\\java\\com\\xqk\\learn\\javase\\util\\ResolveWordTest.docx"))));
+        log.info(JSON.toJSONString(resolve(new File("E:\\JAVASE\\src\\main\\java\\com\\xqk\\learn\\javase\\util\\ResolveWord.docx"))));
     }
 
-    static JSONArray resolve(File file) throws IOException {
+    public static JSONArray resolve(File file) throws IOException {
         FileInputStream fileIn = new FileInputStream(file);
         XWPFDocument docx = new XWPFDocument(fileIn);
-        List<XWPFParagraph> parags = docx.getParagraphs();
+        List<XWPFParagraph> paras = docx.getParagraphs();
         JSONArray jsonArr = new JSONArray();
-        for (XWPFParagraph paragraph : parags) {
+        for (XWPFParagraph paragraph : paras) {
             for (XWPFRun run : paragraph.getRuns()) {
+                if (run.getText(0).isEmpty()) {
+                    continue;
+                }
                 JSONObject jsonObj = new JSONObject(true);
-                log.info("text: " + run.getText(0));
                 jsonObj.put("text:", run.getText(0));
-                log.info("color: " + run.getColor());
-                jsonObj.put("color:", run.getColor());
                 //宋体为默认为null
-                String fontName = run.getFontName();
-                log.info("fontName: " + fontName);
+                String fontName = run.getFontFamily(XWPFRun.FontCharRange.eastAsia);
                 if (Objects.isNull(fontName)) {
                     fontName = "宋体";
                 }
                 jsonObj.put("fontName:", fontName);
-                log.info("fontSize: " + run.getFontSize());
+                jsonObj.put("fontColor:", run.getColor());
                 jsonObj.put("fontSize:", run.getFontSize());
                 jsonArr.add(jsonObj);
             }

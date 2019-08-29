@@ -26,7 +26,7 @@ class ResolveDoc {
     private static final String SEPARATOR = "\r";
 
     public static void main(String[] args) throws IOException {
-        File file = new File("E:\\JAVASE\\src\\main\\java\\com\\xqk\\learn\\javase\\util\\ResolveWordTest.doc");
+        File file = new File("E:\\JAVASE\\src\\main\\java\\com\\xqk\\learn\\javase\\util\\ResolveWord.doc");
         log.info(resolveDoc(file).toJSONString());
     }
 
@@ -39,7 +39,7 @@ class ResolveDoc {
         for (int i = 0; i < range.numCharacterRuns(); i++) {
             CharacterRun cr = range.getCharacterRun(i);
             String text = cr.text();
-            if (text.equals(SEPARATOR)) {
+            if (text.equals(SEPARATOR) || text.isEmpty()) {
                 continue;
             }
             JSONObject obj = new JSONObject(true);
