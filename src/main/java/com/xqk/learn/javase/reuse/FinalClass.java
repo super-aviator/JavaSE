@@ -8,5 +8,5 @@ package com.xqk.learn.javase.reuse;
  * @date 2019-8-20
  */
 @SuppressWarnings("unused")
-public class FinalClass {
+public final class FinalClass {
 }

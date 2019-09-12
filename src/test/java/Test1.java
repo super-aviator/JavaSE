@@ -1,10 +1,17 @@
+import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.JSONPath;
+import org.junit.Test;
+
+import java.util.Map;
 import java.util.Random;
+import java.util.regex.Pattern;
 
 /**
- * Test
+ * Test1
  */
-public class Test {
+public class Test1 {
     private static final Random RAND = new Random();
+
 
     public static void main(String[] args) {
 //        HashMap<String, String> hashMap = new HashMap<>();
@@ -18,13 +25,17 @@ public class Test {
 //        result.append("adfasdf-sdfad-sdf-");
 //        System.out.println(result.deleteCharAt(result.length() - 1).toString());
 
-        String x = null;
-        switch (x) {
-            case "1":
-                System.out.println("1");
-                break;
-            default:
-                break;
+        //String x = null;
+        //switch (x) {
+        //    case "1":
+        //        System.out.println("1");
+        //        break;
+        //    default:
+        //        break;
+        //}
+
+        for (Map.Entry entry : System.getenv().entrySet()) {
+            System.out.println(entry);
         }
     }
 
@@ -39,6 +50,36 @@ public class Test {
         }
         return sb.toString();
     }
+
+    /**
+     * 正则表达式中，\\s匹配一个非字符的字符（有点绕口）
+     */
+    @Test
+    public void test() {
+        Pattern pattern = Pattern.compile("\\s*");
+        System.out.println(pattern.matcher("\r\n").matches());
+        System.out.println(pattern.matcher("\r\r").matches());
+        System.out.println(pattern.matcher("\n").matches());
+        System.out.println(pattern.matcher("a").matches());
+        System.out.println(pattern.matcher("\n\n").matches());
+    }
+
+    /**
+     * 当JSONPath读取不到该路径对应的值时，返回null。
+     */
+    @Test
+    public void testJsonPath() {
+        JSONObject obj1 = new JSONObject();
+        JSONObject obj2 = new JSONObject();
+        obj1.put("name", "xqk");
+        obj2.put("age", 20);
+        obj1.put("detail", obj2);
+
+        Integer age = (Integer) JSONPath.read(obj1.toJSONString(), "$.detail.age.name");
+        System.out.println(age);
+        System.out.println((Integer) null);
+    }
+
 }
 
 

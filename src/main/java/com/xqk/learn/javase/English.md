@@ -123,14 +123,59 @@ filter                          过滤器
 wildcard                        通配符     
 deny                            拒绝，否认      
 oppose                          强烈反对，截然不同       
-sufficient                      充足的，充分的     
+sufficient                      充足的，充分的
+insufficient                    不足的，不充分的，不够重要的           
 boundary                        边界，分界线      
 BIOS                            Basic Input Output System       
 global                          全世界的，全球的；整体的，全面的        
 disable                         关闭      
 install                         安装      
-[regard]                        尊敬，尊重；看待，凝视，把……视为       
+[regard]                        尊敬，尊重；看待，凝视，把……视为,把……认为       
 absolute                        绝对的，完全的；无限制的，专制的        
 ```
 
 - 2019-9-9(旅游归来，奥利给)
+```
+```
+
+- 2019-9-10
+```
+backspace                       回退键，回格键，回退，回删       
+annotate                        注释，注解       
+emulator                        仿真程序        
+browse                          浏览，随便看看，翻阅     
+reflow                          页面重排，逆流，倒流      
+picnic                          野餐      
+plastic                         塑料的，可塑的，不自然的，做作的；塑料，信用卡     
+salary                          薪水      
+running                         跑，操纵，操作，管理     
+possible                        可能；合适的人，适当的人        
+library                         图书馆     
+backup                          后援，增援，备份；增补，替补，伴奏的        
+edge                            刀刃，边缘       
+direct                          直接的，亲自的，亲身的；直接，径直，亲自        
+retrieve                        挽回，找回，取回，索回；恢复        
+device                          设备，设施，仪器，方法     
+suitcase                        手提箱，行李箱     
+```
+
+- 2019-9-11（快放假啦啦啦啦啦）       
+during                          在...期间，     
+substitute                      替代品，代替       
+correct                         正确的，准确的；修改，修正，批改，纠正     
+design                          设计，构思，安排        
+concentration                   专心，专注，注意力集中，浓度      
+absolutely                      绝对的，完全的；当然       
+loaded                          满载的，充满……的，非常富有的     
+hardware                        硬件      
+callback                        回调      
+catenate                        滚瓜乱熟的，链接，使成一串       
+delegate                        分派，委派，选派，授权     
+template                        模板，模型       
+valid                           有效地，正当的，合法的     
+saving                          节省，节约      
+assistance                      帮助，援助，支持        
+retry                           重试，重新审理，复审      
+neck                            脖子      
+assembly                        集会，议会，集合；装配     
+plastic                         塑料的，可塑的，不自然的，做作的        

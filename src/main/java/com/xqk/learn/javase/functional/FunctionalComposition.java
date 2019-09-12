@@ -16,7 +16,7 @@ public class FunctionalComposition {
         Function<String, String>
                 f1 = origin -> origin.substring(3),
                 f2 = origin -> origin.replace("A", "XQK"),
-                f3 = origin -> origin.toUpperCase(),
+                f3 = String::toUpperCase,
                 f4 = f1.compose(f2).andThen(f3);
 
         System.out.println(f4.apply("ABDef"));
