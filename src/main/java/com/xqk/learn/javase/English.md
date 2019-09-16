@@ -160,6 +160,7 @@ suitcase                        手提箱，行李箱
 ```
 
 - 2019-9-11（快放假啦啦啦啦啦）       
+```
 during                          在...期间，     
 substitute                      替代品，代替       
 correct                         正确的，准确的；修改，修正，批改，纠正     
@@ -175,7 +176,27 @@ template                        模板，模型
 valid                           有效地，正当的，合法的     
 saving                          节省，节约      
 assistance                      帮助，援助，支持        
+assistant                       助手，助理       
 retry                           重试，重新审理，复审      
 neck                            脖子      
 assembly                        集会，议会，集合；装配     
 plastic                         塑料的，可塑的，不自然的，做作的        
+```
+
+2019-9-16（中秋假期结束，安心工作吧）         
+contact                         接触，联系       
+wrap                            包裹，包围       
+applicant                       申请人     
+snap                            匆忙的，不假思索的；抢拍的照片       
+snapshot                        快照      
+analyst                         分析人         
+affect                          影响，假装，侵袭，使感染      
+avoid                           避免      
+early                           早期的，初期的，早先的，早到的     
+intensity                       强烈的，剧烈的，激烈的，剧烈的     
+precede                         在……前面，早于，先于        
+pause                           暂停，停顿      
+prudent                         谨慎的，精打细算的       
+automatic                       自动的，自动装置的       
+white                           白的      
+agreement                       同意，一致，协议        
