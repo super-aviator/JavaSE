@@ -99,7 +99,7 @@ accord                          协议，条约；一致，相符，配合
 ```
 correspond                      符合，相当，通信       
 script                          脚本，剧本，讲稿        
-resolution                      决心，下决心，坚决；分辨率       
+[resolution]                    决心，下决心，坚决；分辨率       
 confirm                         确认，认可       
 humor                           幽默，诙谐       
 humorous                        幽默的，有趣的，诙谐的     
@@ -170,11 +170,11 @@ absolutely                      绝对的，完全的；当然
 loaded                          满载的，充满……的，非常富有的     
 hardware                        硬件      
 callback                        回调      
-catenate                        滚瓜乱熟的，链接，使成一串       
+[catenate]                      滚瓜乱熟的，链接，使成一串       
 delegate                        分派，委派，选派，授权     
 template                        模板，模型       
 valid                           有效地，正当的，合法的     
-saving                          节省，节约      
+[saving]                        节省，节约      
 assistance                      帮助，援助，支持        
 assistant                       助手，助理       
 retry                           重试，重新审理，复审      
@@ -184,6 +184,7 @@ plastic                         塑料的，可塑的，不自然的，做作的
 ```
 
 2019-9-16（中秋假期结束，安心工作吧）         
+```
 contact                         接触，联系       
 wrap                            包裹，包围       
 applicant                       申请人     
@@ -200,3 +201,22 @@ prudent                         谨慎的，精打细算的
 automatic                       自动的，自动装置的       
 white                           白的      
 agreement                       同意，一致，协议        
+```
+
+2019-9-17       
+introduction                    引入，采用，介绍，引见；序言，引言，序     
+previous                        以前的，先前的     
+align                           使对齐，使成一条线；使联合，使结盟       
+remain                          依旧，任然；保留，遗留，逗留；剩余      
+atmosphere                      大气，空气，气氛，格调     
+radiation                       放射，辐射       
+omit                            遗漏,省略       
+guard                           警卫，哨兵，保卫，看守         
+sentinel                        哨兵      
+contract                        合同，契约；缩小，缩短；感染      
+applied                         应用的，实用的     
+compatible                      兼容的，共存的，关系好的，和睦的        
+incompatible                    不兼容的，不相符的，不相容的      
+vertical                        垂直的，竖直的，纵向的     
+certain                         确定的，无疑的，确信的     
+radiation                       辐射，放射      

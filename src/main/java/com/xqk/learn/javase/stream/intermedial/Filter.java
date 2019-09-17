@@ -15,11 +15,11 @@ public class Filter {
     /**
      * 判断一个数是否是质数的快捷方法：
      * 一个数若可以进行因数分解，那么分解时得到的两个数一定是一个小于等于sqrt(n)，一个大于等于sqrt(n)，
-     * 据此，上述代码中并不需要遍历到n-1，遍历到sqrt(n)即可，因为若sqrt(n)左侧找不到约数，那么右侧也
+     * 据此，上述在判断时并不需要遍历到n-1，遍历到sqrt(n)即可，因为若sqrt(n)左侧找不到约数，那么右侧也
      * 一定找不到约数。
      * <p>
      * noneMatch方法会对流中的所有元素进行predicate操作，如果所有元素的结果都为false,则返回true，如果
-     * 有一个为true,则返回false
+     * 有一个为true,则返回false，noneMatch在遇到错误时会立即返回。
      *
      * @param n 入参
      * @return n是否是质数返回true, 否则返回false
