@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 import java.util.stream.Stream;
 
 /**
- * Stream也支持builder方法，可以动态的向流中添加新的元素,当调用Builder的build方法之后，就不能再向其中添加元素了
+ * Stream也支持builder方法，可以使用add方法动态的向流中添加新的元素,当调用Builder的build方法之后，就不能再向其中添加元素了
  *
  * @author 熊乾坤
  * @date 2019-9-16

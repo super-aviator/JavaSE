@@ -197,15 +197,16 @@ early                           早期的，初期的，早先的，早到的
 intensity                       强烈的，剧烈的，激烈的，剧烈的     
 precede                         在……前面，早于，先于        
 pause                           暂停，停顿      
-prudent                         谨慎的，精打细算的       
+[prudent]                       谨慎的，精打细算的       
 automatic                       自动的，自动装置的       
 white                           白的      
 agreement                       同意，一致，协议        
 ```
 
 2019-9-17       
+```
 introduction                    引入，采用，介绍，引见；序言，引言，序     
-previous                        以前的，先前的     
+previous                        以前的，先前的；上一次     
 align                           使对齐，使成一条线；使联合，使结盟       
 remain                          依旧，任然；保留，遗留，逗留；剩余      
 atmosphere                      大气，空气，气氛，格调     
@@ -218,5 +219,23 @@ applied                         应用的，实用的
 compatible                      兼容的，共存的，关系好的，和睦的        
 incompatible                    不兼容的，不相符的，不相容的      
 vertical                        垂直的，竖直的，纵向的     
-certain                         确定的，无疑的，确信的     
-radiation                       辐射，放射      
+horizontial                     水平的     
+[certain]                       确定的，无疑的，确信的     
+[radiation]                       辐射，放射      
+```
+
+2019-9-18（快租房子了，老天爷，请赐我身心无畏的力量）       
+share                           分享，分担；股份      
+drug                            药物，毒品       
+supply                          供应，供给，补给，提供，贮备      
+image                           图片，图像；反映，象征       
+optional                        可选择的，选修的        
+prevent                         预防，阻止，阻挠        
+annual                          每年的，一年一度的，年度的       
+divide                          除，除以；划分，分隔      
+multiply                        乘，乘以，增加，繁殖      
+maintain                        保持，维持；维修，保养；坚称，断言       
+correction                      批改，修改，修正        
+routine                         常规，历程，例行公事      
+hexadecimal                     十六进制的       
+experiment                      实验，试验，尝试，实践         
