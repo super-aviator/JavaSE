@@ -183,7 +183,7 @@ assembly                        集会，议会，集合；装配
 plastic                         塑料的，可塑的，不自然的，做作的        
 ```
 
-2019-9-16（中秋假期结束，安心工作吧）         
+- 2019-9-16（中秋假期结束，安心工作吧）         
 ```
 contact                         接触，联系       
 wrap                            包裹，包围       
@@ -203,7 +203,7 @@ white                           白的
 agreement                       同意，一致，协议        
 ```
 
-2019-9-17       
+- 2019-9-17       
 ```
 introduction                    引入，采用，介绍，引见；序言，引言，序     
 previous                        以前的，先前的；上一次     
@@ -224,7 +224,8 @@ horizontial                     水平的
 [radiation]                       辐射，放射      
 ```
 
-2019-9-18（快租房子了，老天爷，请赐我身心无畏的力量）       
+- 2019-9-18（快租房子了，老天爷，请赐我身心无畏的力量）     
+```
 share                           分享，分担；股份      
 drug                            药物，毒品       
 supply                          供应，供给，补给，提供，贮备      
@@ -239,3 +240,56 @@ correction                      批改，修改，修正
 routine                         常规，历程，例行公事      
 hexadecimal                     十六进制的       
 experiment                      实验，试验，尝试，实践         
+```
+
+- 2019-9-19（新衣服，新心情）      
+```
+module                          模块，组件      
+capability                      能力，才能，军事力量      
+series                          串联，一系列，连续，连接        
+a series of                     一系列     
+department                      部门，系      
+media                           媒体      
+flood                           洪水，泛滥，淹没     
+question                        问题      
+defer                           推迟，延迟，延期，服从        
+warning                         警告，警示，先兆        
+predict                         语言，预测，预告       
+[individual]                    单独的，个人的         
+disclose                        揭露，揭秘       
+victory                         胜利      
+routine                         日常的，惯例的     
+invalid                         无效的，非法的         
+asynchronous                    异步的         
+synchronous                     同步的         
+dimension                       空间，维度，尺寸，容积
+three dimension                 三维      
+calling                         打电话；职位，责任感，使命感      
+basement                        地下室         
+appropriate                     合适的，适合的，相称的；拨出款项，占用，挪用      
+decline                         减少，降低，衰退，谢绝     
+reduce                          减少，降低，蒸发，节食，减轻体重        
+deprecate                       不赞成，反对      
+reorder                         重新下单，重排序        
+octet                           八进制     
+numeral                         数字，数码；数的，表示数的       
+```
+
+- 2019-9-20(今天晚上离职的同时请吃饭，中午饿一顿，是时候表演真正的技术了>_< )         
+abbreviation                    缩写，省略号，约分        
+tangle                          混乱，纷乱，纠纷，争执         
+speech                          演讲      
+square                          正方形，四方形；平方      
+recently                        最近的，不久的     
+rectangle                       矩形，长方形      
+angle                           角，角度        
+bracket                         括号，方括号，等级     
+freeze                          冷冻，冻结，冻僵        
+boot                            启动      
+small                           小的          
+remark                          评论      
+mixed                           混合的，混杂的     
+preview                         预演，预映，预告，预展；概述，影评       
+emit                            散发，发出       
+omit                            遗漏      
+teenager                        青少年     

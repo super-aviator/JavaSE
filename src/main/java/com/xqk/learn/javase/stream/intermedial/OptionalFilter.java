@@ -9,6 +9,8 @@ import java.util.stream.Stream;
  * 但是在Optional.filter方法中，如果流中的元素不满足Predicate,那么只会将其封装为Optional.empty；如果满足，则直接将Optional返回
  * 这是可以接受的，因为流中返回Optional的方法都是单个的元素，该元素只会有存在和不存在两种状态。
  *
+ * 当流的skip的参数超过流的大小时，会返回一个
+ *
  * @author 熊乾坤
  * @date 2019/9/18 19:44
  */
@@ -32,5 +34,7 @@ public class OptionalFilter {
     public static void main(String[] args) {
         test("true", t -> true);
         test("false", t -> false);
+
+        Stream.of("xqk").skip(2).forEach(t -> System.out.println("*->"));
     }
 }
