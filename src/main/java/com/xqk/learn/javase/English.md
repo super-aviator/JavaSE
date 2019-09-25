@@ -188,7 +188,7 @@ plastic                         塑料的，可塑的，不自然的，做作的
 contact                         接触，联系       
 wrap                            包裹，包围       
 applicant                       申请人     
-snap                            匆忙的，不假思索的；抢拍的照片       
+[snap]                          匆忙的，不假思索的；抢拍的照片       
 snapshot                        快照      
 analyst                         分析人         
 affect                          影响，假装，侵袭，使感染      
@@ -221,7 +221,7 @@ incompatible                    不兼容的，不相符的，不相容的
 vertical                        垂直的，竖直的，纵向的     
 horizontial                     水平的     
 [certain]                       确定的，无疑的，确信的     
-[radiation]                       辐射，放射      
+[radiation]                     辐射，放射      
 ```
 
 - 2019-9-18（快租房子了，老天爷，请赐我身心无畏的力量）     
@@ -245,20 +245,20 @@ experiment                      实验，试验，尝试，实践
 - 2019-9-19（新衣服，新心情）      
 ```
 module                          模块，组件      
-capability                      能力，才能，军事力量      
+[capability]                    能力，才能，军事力量      
 series                          串联，一系列，连续，连接        
 a series of                     一系列     
 department                      部门，系      
 media                           媒体      
 flood                           洪水，泛滥，淹没     
 question                        问题      
-defer                           推迟，延迟，延期，服从        
+[defer]                         推迟，延迟，延期，服从        
 warning                         警告，警示，先兆        
-predict                         语言，预测，预告       
+[predict]                       语言，预测，预告       
 [individual]                    单独的，个人的         
 disclose                        揭露，揭秘       
 victory                         胜利      
-routine                         日常的，惯例的     
+[routine]                       日常的，惯例的     
 invalid                         无效的，非法的         
 asynchronous                    异步的         
 synchronous                     同步的         
@@ -275,13 +275,15 @@ octet                           八进制
 numeral                         数字，数码；数的，表示数的       
 ```
 
-- 2019-9-20(今天晚上离职的同时请吃饭，中午饿一顿，是时候表演真正的技术了>_< )         
+- 2019-9-20(今天晚上离职的同事请吃饭，中午饿一顿，是时候表演真正的技术了>_< )                 
+```
+abbreviate                      缩写，缩短，缩写为，简称        
 abbreviation                    缩写，省略号，约分        
-tangle                          混乱，纷乱，纠纷，争执         
+[tangle]                        混乱，纷乱，纠纷，争执         
 speech                          演讲      
 square                          正方形，四方形；平方      
 recently                        最近的，不久的     
-rectangle                       矩形，长方形      
+[rectangle]                     矩形，长方形      
 angle                           角，角度        
 bracket                         括号，方括号，等级     
 freeze                          冷冻，冻结，冻僵        
@@ -289,7 +291,68 @@ boot                            启动
 small                           小的          
 remark                          评论      
 mixed                           混合的，混杂的     
-preview                         预演，预映，预告，预展；概述，影评       
+[preview]                       预演，预映，预告，预展；概述，影评       
 emit                            散发，发出       
 omit                            遗漏      
 teenager                        青少年     
+```
+
+- 2019-9-23（这周末房子还没定下来，完犊子了）        
+```
+archive                         档案，档案室，档案馆      
+neutral                         中性的，中立的     
+accuracy                        精确度，准确度     
+eject                           驱逐，赶出，弹出，喷射出       
+compile                         编译，汇编，编写，编撰         
+avoid                           避免，避开，防止      
+recursive                       递归，循环的      
+declare                         宣布，申明，申报        
+flat                            平的，平坦的，平滑的，扁平的；公寓，单元房       
+deal                            处理，应付，分配，发牌；贩毒的     
+symbol                          象征，符号，符号表      
+[emergency]                     突发事件，紧急情况       
+annual                          每年的，一年一度的       
+guidance                        引导，指导，导航，咨询     
+judgment                        研判，判断，审判        
+```
+
+-2019-9-24      
+```
+extract                         提炼，摘录，获得，取出        
+demand                          需求，要求       
+breeze                          微风      
+keyword                         关键词     
+[particular]                    专指的，特定的；讲究的，挑剔的；详细资料；细节，详情      
+exhibit                         展览，展出；显示；展览品        
+semicolon                       分号          
+a lot of                        许多      
+simply                          简直，简单的      
+```
+
+2019-9-25       
+floppy                          松软的，耷拉的，下垂的     
+chain                           链，链子        
+various                         迥异的，千差万别的       
+collapse                        倒塌，坍塌，瓦解，崩溃     
+neutral                         中性的，中立的     
+dull                            乏味的，沉闷的         
+listing                         清单      
+convenience                     方便的，快捷的      
+syntax                          语法      
+intelligence                    智慧，智力，智能        
+artificial                      人工的，人造的，虚伪的         
+artificial intelligence         人工智能        
+twice                           两次，两边，两倍        
+startup                         开动，启动       
+width                           宽度      
+feed                            饲养，喂养，供应，供给         
+manner                          方式，举止，方法，礼貌，风格          
+splice                          胶接，结婚；胶接处，粘接处       
+platform                        平台，月台，讲台        
+tiny                            极小的，微小的     
+state                           国家的；说明，称述；状态，状况     
+chrome                          铬，铬合金       
+monochrome                      黑白的，单色的     
+entirely                        整个的，完全的         
+career                          事业，职业，生涯，经历     
+digit                           数字，数位，手指，拇指，脚趾      
