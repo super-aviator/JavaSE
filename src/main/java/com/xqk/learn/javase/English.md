@@ -330,6 +330,7 @@ simply                          简直，简单的
 ```
 
 2019-9-25       
+```
 floppy                          松软的，耷拉的，下垂的     
 chain                           链，链子        
 various                         迥异的，千差万别的       
@@ -356,3 +357,16 @@ monochrome                      黑白的，单色的
 entirely                        整个的，完全的         
 career                          事业，职业，生涯，经历     
 digit                           数字，数位，手指，拇指，脚趾      
+```
+
+2019-9-26           
+activate                        激活，使活化，使活动              
+snappy                          精简的，简练的，漂亮入时的             
+hyphen                          分隔号     
+recognize                       认出，认可，承认            
+remember                        记住，记起，想起        
+slow                            缓慢的，迟缓的         
+consist                         由...组成          
+temporal                        时间的，暂时的，瞬时的         
+ram                             撞击，和...相撞；塞进，挤进            
+exact                           精准的，精确的，准确的；严谨的         
