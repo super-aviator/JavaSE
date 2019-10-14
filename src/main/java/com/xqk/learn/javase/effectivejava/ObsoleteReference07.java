@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * ObsoleteReference 过期引用
  * <p>
- * 在第43行中，将自己管理的内存elements的过期数据设置为null,避免了内存泄露。 在java的集合框架中也是这样做的，非常的nice.
+ * 在第51行中，将自己管理的内存elements的过期数据设置为null,避免了内存泄露。 在java的集合框架中也是这样做的，非常的nice.
  *
  * @author 熊乾坤
  */

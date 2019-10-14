@@ -306,7 +306,7 @@ eject                           驱逐，赶出，弹出，喷射出
 compile                         编译，汇编，编写，编撰         
 avoid                           避免，避开，防止      
 recursive                       递归，循环的      
-declare                         宣布，申明，申报        
+declare                         宣布，申明，申报     
 flat                            平的，平坦的，平滑的，扁平的；公寓，单元房       
 deal                            处理，应付，分配，发牌；贩毒的     
 symbol                          象征，符号，符号表      
@@ -360,13 +360,60 @@ digit                           数字，数位，手指，拇指，脚趾
 ```
 
 2019-9-26           
+```
 activate                        激活，使活化，使活动              
 snappy                          精简的，简练的，漂亮入时的             
 hyphen                          分隔号     
 recognize                       认出，认可，承认            
+organize                        组织，组建，安排，管理         
 remember                        记住，记起，想起        
 slow                            缓慢的，迟缓的         
 consist                         由...组成          
 temporal                        时间的，暂时的，瞬时的         
 ram                             撞击，和...相撞；塞进，挤进            
 exact                           精准的，精确的，准确的；严谨的         
+```
+
+- 2019-10-9（A:手机快没电了 M:好的，拜拜啦）  
+```
+criteria                        标准，尺度       
+deny                            拒绝，否认      
+gather                          聚合，聚集，聚拢        
+feedback                        回馈，反馈       
+consider                        考虑      
+resign                          辞职      
+fact                            实际情况，真实的事物      
+parallel                        并行的，并列的；平行线     
+unlock                          解锁，开锁，开启        
+flat                            平坦的，平滑的，水平的，扁平的；公寓      
+future                          未来的，将来的     
+feature                         特征，特点，特色        
+semicolon                       分号      
+exhibit                         展览，展出，显示        
+respect                         尊敬，尊重       
+petrel                          海燕      
+vocabulary                      词汇量     
+octet                           八进制     
+```
+
+- 2019-10-11（想起了她）
+```
+```
+
+- 2019-10-12(安心工作)      
+```
+black                           黑的，黑色的；黑人
+respect                         尊敬，尊重
+host                            主人，主机；主办，主持节目；许多，大量，无数
+deactivate                      使失活，使停止工作
+precedent                       先例，例子；在前的，优先的
+kernel                          果核，核心       
+compress                        压缩，浓缩，精简
+skeleton                        框架，提纲，概要；骨骼，骨架，骨瘦如柴的人
+resident                        居住，居民
+well                            好的
+patch                           补丁，小片，眼罩，色斑；补丁，打补丁，修补
+recognize                       认出，认可，承认
+bell                            铃声，钟声
+abbreviate                      缩写，简写
+```
