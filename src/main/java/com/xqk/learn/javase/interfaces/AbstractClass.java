@@ -2,6 +2,7 @@ package com.xqk.learn.javase.interfaces;
 
 /**
  * AbstractClass
+ *
  * 与接口不同，抽象类可以有构造器
  *
  * @author 熊乾坤

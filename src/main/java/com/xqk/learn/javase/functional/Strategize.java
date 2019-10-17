@@ -1,42 +1,46 @@
 package com.xqk.learn.javase.functional;
 
-interface Strategy {
-    String approach(String msg);
-}
-
 /**
  * 有点搞不懂Unrelated类的方法引用为什么可以赋值到Strategy数组中去。
  */
 public class Strategize {
-    Strategy strategy;
-    String msg;
+    private Strategy strategy;
+    private String msg;
 
-    Strategize(String msg) {
-        strategy = new Soft(); // [1]
+    private Strategize(String msg) {
+        //[1]
+        strategy = new Soft();
         this.msg = msg;
     }
 
     public static void main(String[] args) {
-        Strategy[] strategies = {new Strategy() { // [2]
+        //[2]
+        Strategy[] strategies = {new Strategy() {
+            @Override
             public String approach(String msg) {
                 return msg.toUpperCase() + "!";
             }
-        }, msg -> msg.substring(0, 5), // [3]
-                Unrelated::twice // [4]
+        },
+                //[3]
+                msg -> msg.substring(0, 5),
+                //[4]
+                Unrelated::twice
         };
         Strategize s = new Strategize("Hello there");
         s.communicate();
         for (Strategy newStrategy : strategies) {
-            s.changeStrategy(newStrategy); // [5]
-            s.communicate(); // [6]
+            //[5]
+            s.changeStrategy(newStrategy);
+            //[6]
+            s.communicate();
         }
     }
 
-    void communicate() {
+    private void communicate() {
         System.out.println(strategy.approach(msg));
     }
 
-    void changeStrategy(Strategy strategy) {
+    private void changeStrategy(Strategy strategy) {
         this.strategy = strategy;
     }
 }
@@ -48,7 +52,20 @@ class Unrelated {
 }
 
 class Soft implements Strategy {
+    @Override
     public String approach(String msg) {
         return msg.toLowerCase() + "?";
     }
 }
+
+@FunctionalInterface
+interface Strategy {
+    /**
+     * 函数式方法
+     *
+     * @param msg 参数
+     * @return 返回值
+     */
+    String approach(String msg);
+}
+

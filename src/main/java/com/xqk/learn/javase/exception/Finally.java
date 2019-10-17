@@ -3,7 +3,9 @@ package com.xqk.learn.javase.exception;
 /**
  * Finally
  * <p>
- * finally块一般一定会执行，唯一一个例外是遇到System.exit(),程序会直接退出，不能运行finally块也情有可原。
+ * finally块一般一定会执行，唯一一个例外是遇到System.exit(),程序会直接退出，不能运行finally块也情有可原
+ *
+ * @author 熊乾坤
  */
 public class Finally {
 

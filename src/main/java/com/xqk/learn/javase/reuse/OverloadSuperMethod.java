@@ -1,9 +1,9 @@
 package com.xqk.learn.javase.reuse;
 
 /**
- * OverloadSuperMethod
+ * OverloadSuperMethod 重载父类的方法
  * <p>
- * 在子类中重载父类的方法不会屏蔽父类的方法
+ * 在子类中重载父类的方法不会屏蔽任何父类中的重载版本
  *
  * @author 熊乾坤
  */

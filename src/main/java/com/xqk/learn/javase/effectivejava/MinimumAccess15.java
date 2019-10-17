@@ -9,6 +9,8 @@ interface testInterface {
  * 对于final修饰的数组引用，可以考虑使用Collections.unmodifiableList方法将其设置为不可更改类型。或者新增一个返回值为原数组拷贝的方法
  * <p>
  * MinimumAccess15
+ *
+ * @author 熊乾坤
  */
 public class MinimumAccess15 {
 
