@@ -417,3 +417,14 @@ recognize                       认出，认可，承认
 bell                            铃声，钟声
 abbreviate                      缩写，简写
 ```
+
+- 2019-10-17        
+intense                         热烈的，热情的，紧张的         
+victory                         胜利
+incompatible                    不兼容的
+affected                        假装的，做作的，受影响的
+upgrade                         升级
+decline                         下降，降低，减少
+rent                            租用，出租
+disclose                        暴露，揭露，使公开
+instant                         立刻的，立即的，速食的，即食的
