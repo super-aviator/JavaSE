@@ -2,9 +2,11 @@ import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.JSONPath;
 import org.junit.Test;
 
-import java.util.Map;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Random;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 /**
  * Test1
@@ -34,9 +36,25 @@ public class Test1 {
         //        break;
         //}
 
-        for (Map.Entry entry : System.getenv().entrySet()) {
+/*        for (Map.Entry entry : System.getenv().entrySet()) {
             System.out.println(entry);
         }
+
+        Long i=null;
+        System.out.println(i==0);*/
+
+        //String str=(String)null;
+        //if(str==null) {
+        //    System.out.print(str);
+        //}
+
+      /*  List<String> list= Arrays.asList("1","2","1","3","1",null);
+        list=list.stream().distinct().collect(Collectors.toList());
+        System.out.println(list);*/
+
+        List<String> list = Arrays.asList("1", "2", "1", "3", "1", null);
+        list = list.stream().map(t -> t + "1").collect(Collectors.toList());
+        System.out.println(list);
     }
 
     public static String createRandomNum(int length) {

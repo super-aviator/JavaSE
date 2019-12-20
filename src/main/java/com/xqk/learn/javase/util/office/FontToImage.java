@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.util;
+package com.xqk.learn.javase.util.office;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -8,7 +8,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
-import static com.xqk.learn.javase.util.ResolveDoc.resolveDoc;
+import static com.xqk.learn.javase.util.office.ResolveDoc.resolveDoc;
 
 /**
  * 将文字转换为对应的图片，图片后缀为.png
