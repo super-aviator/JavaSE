@@ -1,14 +1,17 @@
 package com.xqk.learn.javase.stream.intermedial;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
  * 在Stream.filter方法中，如果流中的元素不满足Predicate，那么会直接删除该元素，达到过滤的效果。
  * 但是在Optional.filter方法中，如果流中的元素不满足Predicate,那么只会将其封装为Optional.empty；如果满足，则直接将Optional返回
  * 这是可以接受的，因为流中返回Optional的方法都是单个的元素，该元素只会有存在和不存在两种状态。
- *
+ * <p>
  * 当流的skip的参数超过流的大小时，会返回一个
  *
  * @author 熊乾坤
@@ -32,9 +35,17 @@ public class OptionalFilter {
     }
 
     public static void main(String[] args) {
-        test("true", t -> true);
-        test("false", t -> false);
+        //test("true", t -> true);
+        //test("false", t -> false);
+        //
+        //Stream.of("xqk").skip(2).forEach(t -> System.out.println("*->"));
 
-        Stream.of("xqk").skip(2).forEach(t -> System.out.println("*->"));
+
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list = list.stream().filter(t -> t != 2).collect(Collectors.toList());
+        System.out.println(list);
     }
 }

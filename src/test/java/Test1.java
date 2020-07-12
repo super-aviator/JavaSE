@@ -2,7 +2,6 @@ import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.JSONPath;
 import org.junit.Test;
 
-import java.util.Map;
 import java.util.Random;
 import java.util.regex.Pattern;
 
@@ -34,9 +33,19 @@ public class Test1 {
         //        break;
         //}
 
-        for (Map.Entry entry : System.getenv().entrySet()) {
-            System.out.println(entry);
-        }
+        //for (Map.Entry entry : System.getenv().entrySet()) {
+        //    System.out.println(entry);
+        //}
+
+        //Byte b1=new Byte("117");
+        //System.out.println(b1 == 117);
+        //System.out.println(Long.parseLong("0"));
+
+/*        DateTime now=new DateTime();
+        System.out.println(now.hour(true));*/
+
+        String string = (String) null;
+        System.out.println(string);
     }
 
     public static String createRandomNum(int length) {

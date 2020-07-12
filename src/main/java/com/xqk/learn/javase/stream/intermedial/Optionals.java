@@ -16,6 +16,11 @@ import java.util.stream.Stream;
  * 5. 对于数字流 IntStream、LongStream 和 DoubleStream，average() 会将结果包装在 Optional 以防止流为空。
  * <p>
  * 可以调用Optional对象的isPresent方法对是否包含有结果进行判断，如果结果为空，则返回Optional.empty对象
+ * <p>
+ * Optional对象的创建：
+ * 1. of(T t)只能传递非空的参数，否则，会抛出空指针异常
+ * 2. ofNullable(T t)可以传入空或者非空的参数，当为空时，返回Optional.empty,否则返回非空的Optional
+ * 3. empty()生成一个空的Optional对象
  *
  * @author 熊乾坤
  * @date 2019/9/18 17:03

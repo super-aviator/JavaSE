@@ -1,5 +1,7 @@
 package com.xqk.learn.javase.exception;
 
+import com.xqk.learn.javase.exception.exceptions.OneException;
+
 /**
  * RethrowException 重抛异常:
  * 1.重抛新的异常会丢失旧异常的异常信息。
@@ -40,30 +42,6 @@ public class RethrowException {
 
 //            简单的重抛异常，异常栈帧从f()开始
 //            throw e;
-        }
-    }
-
-    private static class OneException extends Exception {
-        private static final long serialVersionUID = -5064781474279236620L;
-
-        OneException() {
-            super();
-        }
-
-        public OneException(String msg) {
-            super(msg);
-        }
-    }
-
-    private static class TwoException extends Exception {
-        private static final long serialVersionUID = 7433642976827457571L;
-
-        TwoException() {
-            super();
-        }
-
-        public TwoException(String msg) {
-            super(msg);
         }
     }
 }

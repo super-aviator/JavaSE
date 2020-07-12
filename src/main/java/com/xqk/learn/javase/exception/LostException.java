@@ -1,5 +1,8 @@
 package com.xqk.learn.javase.exception;
 
+import com.xqk.learn.javase.exception.exceptions.TrivialException;
+import com.xqk.learn.javase.exception.exceptions.VeryImportException;
+
 /**
  * LostException 异常丢失的两种情况：
  * 1：在finally块抛出新的异常，try块中抛出的旧的异常信息会丢失
@@ -40,11 +43,5 @@ public class LostException {
 
     private void g() throws TrivialException {
         throw new TrivialException();
-    }
-
-    private static class VeryImportException extends RuntimeException {
-    }
-
-    private static class TrivialException extends RuntimeException {
     }
 }
