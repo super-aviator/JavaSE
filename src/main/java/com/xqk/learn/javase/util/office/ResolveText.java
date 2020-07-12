@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.util;
+package com.xqk.learn.javase.util.office;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
