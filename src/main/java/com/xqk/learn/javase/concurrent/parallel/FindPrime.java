@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.concurrent.stream;
+package com.xqk.learn.javase.concurrent.parallel;
 
 import com.xqk.learn.javase.util.Timer;
 
@@ -13,7 +13,7 @@ import java.util.stream.LongStream;
 public class FindPrime {
     private static final long FIND_TOTAL = 100_000;
 
-    boolean isPrime(long n) {
+    private static boolean isPrime(long n) {
         return LongStream
                 .rangeClosed(2, (long) Math.sqrt(n))
                 .noneMatch(i -> n % i == 0);
@@ -21,13 +21,13 @@ public class FindPrime {
 
     public static void main(String[] args) {
         Timer timer = new Timer();
-        FindPrime findPrime = new FindPrime();
         LongStream
                 .iterate(2, i -> i + 1)
-                .parallel()
-                .filter(findPrime::isPrime)
+                //.parallel()
+                .filter(FindPrime::isPrime)
                 .limit(FIND_TOTAL)
-                .forEach(i -> System.out.format("num: %2d is prime ! %n", i));
+                .sum();
+        //.forEach(i -> System.out.format("num: %2d is prime ! %n", i));
         System.out.println("used time " + timer.duration());
     }
 }

@@ -13,7 +13,7 @@ import java.util.stream.LongStream;
  * @author 熊乾坤
  * @since 2019-12-20 14:55
  */
-public class CachedTreadExecutorTest {
+public class CachedTreadExecutorLearn {
     public static void main(String[] args) {
         ExecutorService es = Executors.newCachedThreadPool();
         LongStream

@@ -17,6 +17,6 @@ public class NapTask implements Runnable {
     @Override
     public void run() {
         new Nap(0.2);
-        System.out.println(Thread.currentThread().getName() + "[" + id + "]");
+        System.out.println(Thread.currentThread().getName() + "[" + id + "] Nap task complete! ");
     }
 }
