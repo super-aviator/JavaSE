@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.concurrent.executor.tasks;
+package com.xqk.learn.javase.concurrency.executor.tasks;
 
 import com.xqk.learn.javase.util.concurrent.Nap;
 

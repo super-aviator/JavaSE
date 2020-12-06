@@ -1,6 +1,6 @@
-package com.xqk.learn.javase.concurrent.base;
+package com.xqk.learn.javase.concurrency.base;
 
-import com.xqk.learn.javase.concurrent.executor.tasks.NapTask;
+import com.xqk.learn.javase.concurrency.executor.tasks.NapTask;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;

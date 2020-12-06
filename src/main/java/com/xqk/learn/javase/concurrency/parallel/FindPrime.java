@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.concurrent.parallel;
+package com.xqk.learn.javase.concurrency.parallel;
 
 import com.xqk.learn.javase.util.Timer;
 

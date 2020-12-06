@@ -1,6 +1,6 @@
-package com.xqk.learn.javase.concurrent.executor;
+package com.xqk.learn.javase.concurrency.executor;
 
-import com.xqk.learn.javase.concurrent.executor.tasks.InterferingTask;
+import com.xqk.learn.javase.concurrency.executor.tasks.InterferingTask;
 import com.xqk.learn.javase.util.concurrent.Nap;
 
 import java.util.concurrent.ExecutorService;
