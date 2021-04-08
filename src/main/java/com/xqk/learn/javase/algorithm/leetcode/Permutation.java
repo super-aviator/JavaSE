@@ -10,6 +10,6 @@ public class Permutation {
     }
 
     public int permute(int[] num, int index) {
-
+        return 0;
     }
 }
