@@ -12,7 +12,7 @@ public class ProducerConsumer {
     /** 消息队列 */
     public static final Queue<Long> QUEUE = new LinkedBlockingQueue<>();
     /** 计数器 */
-    public static volatile AtomicLong counter = new AtomicLong(0L);
+    public static volatile AtomicLong COUNTER = new AtomicLong(0L);
 
     public static void main(String[] args) {
         Producer producer = new Producer(1);
@@ -27,7 +27,7 @@ public class ProducerConsumer {
      * 生产者线程
      */
     private static class Producer extends Thread {
-        private int id;
+        private final int id;
 
         public Producer(int id) {
             this.id = id;
@@ -39,7 +39,7 @@ public class ProducerConsumer {
                 //获取QUEUE上的监视器锁
                 synchronized (ProducerConsumer.QUEUE) {
                     try {
-                        //这里加上try-catch为了防止虚假唤醒
+                        //这里使用while为了防止虚假唤醒
                         while (ProducerConsumer.QUEUE.size() >= 1) {
                             //调用wait方法，会挂起当前线程，同时释放QUEUE上的锁（需要先获取到监视器锁）
                             ProducerConsumer.QUEUE.wait();
@@ -48,8 +48,8 @@ public class ProducerConsumer {
                         //如果QUEUE的interrupt方法被调用，则wait调用被中断，方法返回
                         e.printStackTrace();
                     }
-                    System.out.println("生产者[" + id + "]生产了一条消息" + ProducerConsumer.counter.addAndGet(1));
-                    ProducerConsumer.QUEUE.add(ProducerConsumer.counter.get());
+                    System.out.println("生产者[" + id + "]生产了一条消息" + ProducerConsumer.COUNTER.addAndGet(1));
+                    ProducerConsumer.QUEUE.add(ProducerConsumer.COUNTER.get());
                     //通知其他线程（需要获取到监视器锁）
                     ProducerConsumer.QUEUE.notifyAll();
                 }
@@ -61,7 +61,7 @@ public class ProducerConsumer {
      * 消费者线程
      */
     private static class Consumer extends Thread {
-        private int id;
+        private final int id;
 
         public Consumer(int id) {
             this.id = id;
@@ -73,7 +73,7 @@ public class ProducerConsumer {
                 //获取QUEUE上的监视器锁
                 synchronized (ProducerConsumer.QUEUE) {
                     try {
-                        //这里加上try-catch为了防止虚假唤醒
+                        //这里使用while为了防止虚假唤醒
                         while (ProducerConsumer.QUEUE.size() < 1) {
                             //调用wait方法，会挂起当前线程，同时释放QUEUE上的锁
                             ProducerConsumer.QUEUE.wait();
@@ -89,5 +89,4 @@ public class ProducerConsumer {
             }
         }
     }
-
 }
