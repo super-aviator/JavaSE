@@ -6,7 +6,7 @@ package com.xqk.learn.javase.string;
  */
 public class StringConstant {
     public static void main(String[] args) {
-        stringConstantPoolTest();
+        internalTest();
 
     }
 
@@ -21,12 +21,14 @@ public class StringConstant {
         System.out.println(s.length());
     }
 
-    //TODO 整理
-    public static void stringConstantPoolTest() {
-        String str = new String("a") + new String("bc");
-        System.out.println("abc" == str.intern());
+    //整理
+    public static void internalTest() {
+        String str = new StringBuilder("a").append("bc")
+                                           .toString();
+        System.out.println(str.intern() == str);
 
-        str = new String("ja") + new String("va");
-        System.out.println("java" == str.intern());
+        str = new StringBuilder("ja").append("va")
+                                     .toString();
+        System.out.println(str.intern() == str);
     }
 }
