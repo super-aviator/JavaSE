@@ -1,12 +1,18 @@
 package com.xqk.learn.javase.designpattern.singleton;
 
+import jdk.internal.org.objectweb.asm.commons.SerialVersionUIDAdder;
+
+import java.io.Serializable;
+
 /**
  * 使用类的静态成员变量实现的单例模式
  *
  * @author 熊乾坤
  * @since 2021-05-14 18:46
  */
-public class StaticFieldSingleton {
+public class StaticFieldSingleton implements Serializable {
+    // private static final long SerialVersionUID =;
+
     public static final StaticFieldSingleton STATIC_FIELD_SINGLETON = new StaticFieldSingleton();
 
     private StaticFieldSingleton() {
@@ -16,6 +22,4 @@ public class StaticFieldSingleton {
             throw new RuntimeException();
         }
     }
-
-
 }

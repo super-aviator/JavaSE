@@ -90,6 +90,14 @@
             <artifactId>spring-core</artifactId>
             <version>5.2.0.RELEASE</version>
         </dependency>
+
+        <!--cglib动态代理-->
+        <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.3.0</version>
+        </dependency>
     </dependencies>
 
 </project>

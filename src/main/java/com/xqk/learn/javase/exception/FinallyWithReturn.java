@@ -9,17 +9,80 @@ package com.xqk.learn.javase.exception;
 public class FinallyWithReturn {
     public static void main(String[] args) {
         FinallyWithReturn fwr = new FinallyWithReturn();
-        System.out.println(fwr.finallyReturn());
+        //try和finally中都有return，返回finally中的return
+        System.out.println("tryReturnFinallyReturn:"+fwr.tryReturnFinallyReturn());
+        //catch和finally中都有return，返回finally中的return
+        System.out.println("catchReturnFinallyReturn:"+fwr.catchReturnFinallyReturn());
+        System.out.println("tryReturnfinallyReturnPrime:"+fwr.tryReturnFinallyReturnPrime());
+        System.out.println("finallyCatchReturn:" + fwr.finallyCatchReturn());
+        System.out.println("finallyCatchReturnWithPrime:" + fwr.finallyCatchReturnWithPrime());
+        System.out.println("finallyReturnWithPrime:" + fwr.finallyReturnWithPrime());
     }
 
-    private String finallyReturn() {
-        try {
-            if (Math.random() >= 0) {
-                throw new RuntimeException("test");
-            }
+    private String tryReturnFinallyReturn() {
+        try{
             return "try";
         } finally {
             return "finally";
+        }
+    }
+
+    private String catchReturnFinallyReturn() {
+        try{
+            throw new Exception();
+        }catch(Exception e){
+            return "catch";
+        } finally {
+            return "finally";
+        }
+    }
+
+    private int tryReturnFinallyReturnPrime() {
+        int i=0;
+        try {
+            i=1;
+            return i;
+        } finally {
+            i=2;
+            return i;
+        }
+    }
+
+    private String finallyCatchReturn() {
+        String str;
+        try {
+            str = "try";
+//            if (str.equals("try")) {
+//                throw new RuntimeException();
+//            }
+            return str;
+        } catch (Exception e) {
+            str = "catch";
+            return str;
+        } finally {
+            str = "finally";
+            return str;
+        }
+    }
+
+    private int finallyCatchReturnWithPrime() {
+        int i=0;
+        try {
+            throw new Exception();
+        } catch (Exception e) {
+            ++i;
+            return i;
+        } finally {
+            ++i;
+        }
+    }
+    private int finallyReturnWithPrime() {
+        int i=0;
+        try {
+            i=2;
+            return i;
+        } finally {
+            ++i;
         }
     }
 }
