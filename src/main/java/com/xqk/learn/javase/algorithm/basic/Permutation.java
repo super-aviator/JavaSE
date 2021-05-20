@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.algorithm;
+package com.xqk.learn.javase.algorithm.basic;
 
 import java.util.Arrays;
 
