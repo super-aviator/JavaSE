@@ -3,9 +3,12 @@ package com.xqk.learn.javase.algorithm.sort.impl;
 import com.xqk.learn.javase.algorithm.sort.interfaces.Sort;
 
 /**
- * 插入排序：从0~p，保证0~p-1位置上的数据是有序的
+ * 插入排序：
+ * 从0~p，每次从p~length-1中找出最小的那个元素，插入到p的位置，保证0~p位置上的数据是有序的
  * 平均时间复杂度：O(N^2)
- * 最低时间复杂度（数据已有序）：O(N)
+ * 最低时间复杂度：O(N)
+ *
+ * 数据已有序时，时间复杂度为O(N)
  */
 public class InsertionSort implements Sort<Integer> {
     @Override

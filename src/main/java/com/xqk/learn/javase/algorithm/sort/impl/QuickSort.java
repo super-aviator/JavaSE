@@ -6,6 +6,8 @@ import com.xqk.learn.javase.algorithm.sort.interfaces.Sort;
  * 快速排序：
  * 平均运行时间：O(NlogN)
  * 最坏运行时间：O(N^2)
+ *
+ * 当切分的元素每次都是数组中最小的元素时，算法的时间复杂度为O(N^2)，此时可以通过随机打乱数组避免此种情况
  */
 public class QuickSort implements Sort<Integer> {
     @Override
