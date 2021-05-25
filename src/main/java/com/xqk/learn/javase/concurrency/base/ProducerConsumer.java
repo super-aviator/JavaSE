@@ -1,4 +1,4 @@
-package com.xqk.learn.javase;
+package com.xqk.learn.javase.concurrency.base;
 
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -33,8 +33,7 @@ public class ProducerConsumer {
 
         @Override
         public void run() {
-            while (!Thread.currentThread()
-                          .isInterrupted()) {
+            while (!Thread.currentThread().isInterrupted()) {
                 synchronized (QUEUE) {
                     try {
                         while (QUEUE.size() > 0) {
@@ -43,8 +42,7 @@ public class ProducerConsumer {
                     } catch (Exception ignore) {
                     }
                     QUEUE.add("");
-                    System.out.println(Thread.currentThread()
-                                             .getName() + " 生产了一条消息");
+                    System.out.println(Thread.currentThread().getName() + " 生产了一条消息");
                     QUEUE.notifyAll();
                 }
             }
@@ -61,8 +59,7 @@ public class ProducerConsumer {
 
         @Override
         public void run() {
-            while (!Thread.currentThread()
-                          .isInterrupted()) {
+            while (!Thread.currentThread().isInterrupted()) {
                 synchronized (QUEUE) {
                     try {
                         while (QUEUE.size() == 0) {
@@ -71,10 +68,8 @@ public class ProducerConsumer {
                     } catch (Exception ignore) {
                     }
                     QUEUE.poll();
-                    System.out.println(Thread.currentThread()
-                                             .getName() + " 消费到一条数据");
+                    System.out.println(Thread.currentThread().getName() + " 消费到一条数据");
                     QUEUE.notifyAll();
-
                 }
             }
             System.out.println(Thread.currentThread()

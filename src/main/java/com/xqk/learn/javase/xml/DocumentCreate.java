@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.XML;
+package com.xqk.learn.javase.xml;
 
 import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
