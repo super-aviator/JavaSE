@@ -18,7 +18,7 @@ public class MergeSort implements Sort<Integer> {
         sort(arr, 0, arr.length - 1);
     }
 
-    public void sort(Integer[] arr, int lo, int hi) {
+    private void sort(Integer[] arr, int lo, int hi) {
         if (lo >= hi) {
             return;
         }

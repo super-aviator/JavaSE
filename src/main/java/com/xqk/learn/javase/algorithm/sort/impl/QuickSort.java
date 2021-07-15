@@ -6,7 +6,7 @@ import com.xqk.learn.javase.algorithm.sort.interfaces.Sort;
  * 快速排序：
  * 平均运行时间：O(NlogN)
  * 最坏运行时间：O(N^2)
- *
+ * <p>
  * 当切分的元素每次都是数组中最小的元素时，算法的时间复杂度为O(N^2)，此时可以通过随机打乱数组避免此种情况
  */
 public class QuickSort implements Sort<Integer> {
@@ -16,28 +16,23 @@ public class QuickSort implements Sort<Integer> {
     }
 
     private void sort(Integer[] arr, int lo, int hi) {
-        //基准条件
-        if (hi <= lo) {
+        if (lo >= hi) {
             return;
         }
-
-        //不断推进
         int j = partition(arr, lo, hi);
         sort(arr, lo, j - 1);
         sort(arr, j + 1, hi);
     }
 
     private int partition(Integer[] arr, int lo, int hi) {
-        //数组切分（使用数组第一个元素进行切分）
-        int num = arr[lo], i = lo, j = hi + 1;
+        int mid = arr[lo], i = lo, j = hi + 1;
         while (true) {
-            //内部迭代
-            while (arr[++i] <= num) {
+            while (arr[++i].compareTo(mid) < 0) {
                 if (i >= hi) {
                     break;
                 }
             }
-            while (arr[--j] > num) {
+            while (arr[--j].compareTo(mid) > 0) {
                 if (j <= lo) {
                     break;
                 }

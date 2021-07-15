@@ -18,6 +18,7 @@ public class CountDownLatchDemo {
         COUNT_DOWN_LATCH.await();
         System.out.println("done!");
         es.shutdown();
+        COUNT_DOWN_LATCH.await();
     }
 
     private static class SubThread1 implements Runnable {

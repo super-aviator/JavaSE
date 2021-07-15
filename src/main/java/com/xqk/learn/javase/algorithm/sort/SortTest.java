@@ -29,6 +29,6 @@ public class SortTest {
         SortTest test4 = new SortTest(new MergeSort());
         SortTest test5 = new SortTest(new QuickSort());
 
-        test2.test();
+        test4.test();
     }
 }
