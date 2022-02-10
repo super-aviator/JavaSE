@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.packaging;
+package com.xqk.learn.javase.operator.packaging;
 
 /**
  * 当一个类拥有包访问权限，但是他的构造器是public修饰的，这种情况是一种编程错误，应该避免，

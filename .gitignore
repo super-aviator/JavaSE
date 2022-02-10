@@ -4,6 +4,8 @@
 out/
 .json
 
+.iml
+
 # Compiled class file
 *.class
 

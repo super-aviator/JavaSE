@@ -1,7 +1,5 @@
 package com.xqk.learn.javase.designpattern.singleton;
 
-import jdk.internal.org.objectweb.asm.commons.SerialVersionUIDAdder;
-
 import java.io.Serializable;
 
 /**

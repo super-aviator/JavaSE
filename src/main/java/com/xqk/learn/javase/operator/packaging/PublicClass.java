@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.packaging;
+package com.xqk.learn.javase.operator.packaging;
 
 /**
  * 一个类最多只能有一个public类，但是可以有任意多个default修饰的类，public类的类名必须要和文件名相同

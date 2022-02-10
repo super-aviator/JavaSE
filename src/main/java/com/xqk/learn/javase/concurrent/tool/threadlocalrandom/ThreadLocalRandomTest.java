@@ -1,6 +1,5 @@
 package com.xqk.learn.javase.concurrent.tool.threadlocalrandom;
 
-import sun.misc.Contended;
 
 import java.util.concurrent.ThreadLocalRandom;
 

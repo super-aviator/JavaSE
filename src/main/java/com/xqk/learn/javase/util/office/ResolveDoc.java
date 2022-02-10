@@ -2,11 +2,11 @@ package com.xqk.learn.javase.util.office;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.sun.deploy.util.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.poi.hwpf.HWPFDocument;
 import org.apache.poi.hwpf.usermodel.CharacterRun;
 import org.apache.poi.hwpf.usermodel.Range;
+import org.springframework.util.StringUtils;
 
 import java.io.File;
 import java.io.FileInputStream;

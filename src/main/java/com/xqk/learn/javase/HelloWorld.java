@@ -1,5 +1,10 @@
 package com.xqk.learn.javase;
 
+import java.time.Instant;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+
 /**
  * **开始的地方
  *
@@ -30,4 +35,34 @@ public class HelloWorld {
     // }
 
 
+    public static void main(String[] args) {
+        System.out.println(-2 % 2);
+        System.out.println(0.345 % 1);
+        DateTimeFormatter dtfnt = DateTimeFormatter.ofPattern("yyyy-MM-dd 00:00:00.000");
+        System.out.println(dtfnt.format(Instant.now()
+                                               .atZone((ZoneId.of("GMT+8")))));
+        HelloWorld he = new HelloWorld();
+        System.out.println(he.myPow(1.00000, -2147483648));
+
+        int[] i = new ArrayList<Integer>().stream()
+                                          .mapToInt(Integer::intValue)
+                                          .toArray();
+    }
+
+    public double myPow(double x, long n) {
+        double res = pow(x, Math.abs(n));
+        return n < 0 ? 1.0 / res : res;
+    }
+
+    public double pow(double x, long n) {
+        double res = 1.0;
+        while (n != 0) {
+            if ((n & 1) == 1) {
+                res *= x;
+            }
+            x *= x;
+            n >>= 1;
+        }
+        return res;
+    }
 }

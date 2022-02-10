@@ -1,5 +1,7 @@
 package com.xqk.learn.javase.functional;
 
+import java.util.function.BiFunction;
+
 /**
  * MethodReference
  * <p>
@@ -19,6 +21,16 @@ public class MethodReference {
         c.call("xqk");
         ic.changeIdea("changed");
         c.call("xqk");
+        MethodReference methodReference = new MethodReference();
+        methodReference.test(MethodReference::intDouBoolMethod);
+    }
+
+    public void test(BiFunction<Integer,Double,Boolean> biFunction) {
+
+    }
+
+    public static Boolean intDouBoolMethod(Integer i, Double d) {
+        return true;
     }
 
     public static class InnerClass {
