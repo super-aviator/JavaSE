@@ -18,7 +18,6 @@ import org.apache.zookeeper.data.Stat;
 import com.xqk.learn.javase.distributed.zookeeper.master_follower.constant.ZookeeperConstant;
 import com.xqk.learn.javase.distributed.zookeeper.master_follower.enums.MasterStatus;
 import com.xqk.learn.javase.distributed.zookeeper.master_follower.watcher.LogWatcher;
-import com.xqk.learn.springboot.zookeeper.demo.master_follower.watcher.LogWatcher;
 
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
