@@ -9,7 +9,7 @@ import java.util.stream.Stream;
  * 同时，我们可以了解到必须要有终端操作，流操作才会真正的被执行。
  *
  * @author 熊乾坤
- * @date 2019/9/16 19:01
+ * @since 2019/9/16 19:01
  */
 public class Peeking {
     public static void main(String[] args) {

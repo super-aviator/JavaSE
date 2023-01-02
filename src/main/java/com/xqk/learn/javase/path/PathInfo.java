@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 
 /**
  * @author 熊乾坤
- * @date 2019/9/23 19:04
+ * @since 2019/9/23 19:04
  */
 public class PathInfo {
     public static void main(String[] args) throws IOException {

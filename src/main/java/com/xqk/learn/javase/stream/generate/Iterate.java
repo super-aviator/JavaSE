@@ -7,7 +7,7 @@ import java.util.stream.Stream;
  * 方法的结果将添加到流，并存储作为第一个参数用于下次调用 iterate()，依次类推。
  *
  * @author 熊乾坤
- * @date 2019-9-16
+ * @since 2019-9-16
  */
 public class Iterate {
     int x = 1;

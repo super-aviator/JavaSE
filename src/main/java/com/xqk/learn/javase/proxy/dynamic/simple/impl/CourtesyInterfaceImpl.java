@@ -7,7 +7,7 @@ import com.xqk.learn.javase.proxy.dynamic.simple.interfaces.OtherInterface;
  * 具体的实现类，是用户编写的业务代码
  *
  * @author 熊乾坤
- * @date 2020-02-04 20:56
+ * @since 2020-02-04 20:56
  */
 public class CourtesyInterfaceImpl implements OtherInterface, CourtesyInterface {
     @Override

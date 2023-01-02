@@ -9,7 +9,7 @@ import java.lang.reflect.Proxy;
  * 代理接口实现类从代理接口中实现的所有方法（包括从Object中获取的方法）都会被代理
  *
  * @author 熊乾坤
- * @date 2020-02-04 21:02
+ * @since 2020-02-04 21:02
  */
 public class CourtesyProxy {
     public static void main(String[] args) {

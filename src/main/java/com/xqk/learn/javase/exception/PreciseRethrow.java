@@ -13,7 +13,7 @@ import com.xqk.learn.javase.exception.exceptions.OriginalException;
  * 用的修复。
  *
  * @author 熊乾坤
- * @date 2020-02-04 12:05
+ * @since 2020-02-04 12:05
  */
 public class PreciseRethrow {
     public static void main(String[] args) {

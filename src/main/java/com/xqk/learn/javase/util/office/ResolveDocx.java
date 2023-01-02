@@ -18,7 +18,7 @@ import java.util.Objects;
  * 使用POI库,获取docx文件中的文字、字体、颜色、文字大小等信息
  *
  * @author 熊乾坤
- * @date 2019-8-23
+ * @since 2019-8-23
  */
 @Slf4j
 public class ResolveDocx {

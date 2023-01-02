@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
  * 使用forEach方法消费流中的所有元素
  *
  * @author 熊乾坤
- * @date 2019/9/19 10:55
+ * @since 2019/9/19 10:55
  */
 public class StreamToArrayForeach {
     private static final int[] INTS = new Random().ints(0, 10000).limit(200).toArray();

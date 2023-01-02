@@ -8,7 +8,7 @@ import java.util.Objects;
  * 车辆颜色枚举类
  *
  * @author 熊乾坤
- * @date 2020-05-25 15:30
+ * @since 2020-05-25 15:30
  */
 public enum VehicleClassEnum {
     /** 客车 */

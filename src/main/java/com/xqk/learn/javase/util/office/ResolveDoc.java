@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
  * 使用POI,获取.doc文件的文字、字体、颜色信息
  *
  * @author 熊乾坤
- * @date 2019-8-22
+ * @since 2019-8-22
  */
 @Slf4j
 class ResolveDoc {

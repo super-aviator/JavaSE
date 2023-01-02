@@ -9,7 +9,7 @@ import static java.util.stream.LongStream.rangeClosed;
  * 使用过滤器，对流中的元素进行过滤操作
  *
  * @author 熊乾坤
- * @date 2019/9/16 19:58
+ * @since 2019/9/16 19:58
  */
 public class Filter {
     /**

@@ -16,7 +16,7 @@ import java.util.stream.Stream;
  * 使用流的collect方法能够将流中的元素收集到集合中去。
  *
  * @author 熊乾坤
- * @date 2019/9/19 11:20
+ * @since 2019/9/19 11:20
  */
 public class StreamCollect {
     static Stream<String> stream() throws IOException {

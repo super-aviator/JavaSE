@@ -12,7 +12,7 @@ import java.util.stream.Stream;
  * 流的生成，使用Stream或者集合中的方法，生成流
  *
  * @author 熊乾坤
- * @date 2019-9-16
+ * @since 2019-9-16
  */
 public class StreamGenerate {
 

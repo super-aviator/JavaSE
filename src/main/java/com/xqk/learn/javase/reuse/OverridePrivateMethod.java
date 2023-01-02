@@ -7,7 +7,7 @@ package com.xqk.learn.javase.reuse;
  * 值得注意的是，导出类不能覆盖基类的private方法（即private final），因为private final 修饰的方法并不是基类接口的一部分，仅仅是内部方法
  *
  * @author 熊乾坤
- * @date 2019-8-20
+ * @since 2019-8-20
  */
 @SuppressWarnings("unused")
 public class OverridePrivateMethod {

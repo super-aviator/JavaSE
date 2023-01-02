@@ -6,7 +6,7 @@ import java.util.function.Function;
  * 高阶函数指的是参数为一个函数或者返回值为一个函数的函数
  *
  * @author 熊乾坤
- * @date 2019/9/19 18:15
+ * @since 2019/9/19 18:15
  */
 public class HighterLevelFunction {
     private static class One {

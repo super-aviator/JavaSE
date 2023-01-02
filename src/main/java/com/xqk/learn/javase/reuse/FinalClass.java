@@ -5,7 +5,7 @@ package com.xqk.learn.javase.reuse;
  * 你可以在 final 类中的方法加上 final 修饰符，但不会增加任何意义。
  *
  * @author 熊乾坤
- * @date 2019-8-20
+ * @since 2019-8-20
  */
 @SuppressWarnings("unused")
 public final class FinalClass {

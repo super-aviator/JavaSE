@@ -4,7 +4,7 @@ package com.xqk.learn.javase.util.office;
  * POI颜色转换工具类， 原作者：https://www.cnblogs.com/newcaoguo/p/6231175.html
  *
  * @author 熊乾坤
- * @date 2019-8-23
+ * @since 2019-8-23
  */
 class ColorUtil {
 

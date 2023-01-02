@@ -15,7 +15,7 @@ import java.util.stream.Stream;
  * 当流的skip的参数超过流的大小时，会返回一个
  *
  * @author 熊乾坤
- * @date 2019/9/18 19:44
+ * @since 2019/9/18 19:44
  */
 public class OptionalFilter {
     private static final String[] STR_STEAM = {"hello", "world", "", "name", "is", "xqk"};

@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
  * 守护进程
  *
  * @author 熊乾坤
- * @date 2020-07-16 16:54
+ * @since 2020-07-16 16:54
  */
 public class TimeAbort {
     private boolean start = true;

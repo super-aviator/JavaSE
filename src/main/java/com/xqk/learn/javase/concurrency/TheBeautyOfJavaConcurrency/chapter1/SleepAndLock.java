@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 线程调用sleep方法不会释放获得的锁
  *
  * @author 熊乾坤
- * @date 2020-11-16 8:49
+ * @since 2020-11-16 8:49
  */
 public class SleepAndLock {
     /** 可重入锁 */

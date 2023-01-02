@@ -16,7 +16,7 @@ import java.util.List;
  * 字体默认为宋体、颜色默认为红色、大小默认为你16
  *
  * @author 熊乾坤
- * @date 2019-8-23
+ * @since 2019-8-23
  */
 @Slf4j
 public class ResolveText {

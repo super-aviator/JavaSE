@@ -12,7 +12,7 @@ package com.xqk.learn.javase.concurrency.TheBeautyOfJavaConcurrency.chapter1;
  * 2.破坏上面的条件2或者条件4
  *
  * @author 熊乾坤
- * @date 2020-11-18 8:40
+ * @since 2020-11-18 8:40
  */
 public class DeadLock {
     private static final Object RESOURCE_A = new Object();

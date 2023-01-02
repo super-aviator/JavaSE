@@ -12,7 +12,7 @@ import java.util.stream.Stream;
  * 将多个字符流转换为单个字符流。
  *
  * @author 熊乾坤
- * @date 2019/9/18 9:11
+ * @since 2019/9/18 9:11
  */
 public class FlatMapFile {
     private static final Pattern PATTERN = Pattern.compile("\\s+");

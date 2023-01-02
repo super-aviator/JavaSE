@@ -8,7 +8,7 @@ import java.util.OptionalInt;
  * 流的组合,reduce返回的结果为Optional类包装的结果。
  *
  * @author 熊乾坤
- * @date 2019/9/19 13:35
+ * @since 2019/9/19 13:35
  */
 public class StreamCombination {
 

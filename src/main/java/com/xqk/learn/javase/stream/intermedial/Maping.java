@@ -7,7 +7,7 @@ import java.util.stream.Stream;
  * map操作将一种类型的流转换为另一种类型的流。
  *
  * @author 熊乾坤
- * @date 2019/9/17 9:28
+ * @since 2019/9/17 9:28
  */
 public class Maping {
     private static final String[] ORIGIN = {"12", "23", "50", "", "200", "190"};

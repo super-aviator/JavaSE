@@ -12,7 +12,7 @@ package com.xqk.learn.javase.reuse;
  * 有一条通用准则：使用继承表达行为的差异，使用属性表达状态的变化。
  *
  * @author 熊乾坤
- * @date 2019-9-4
+ * @since 2019-9-4
  */
 public class InheritVsComposition {
 }

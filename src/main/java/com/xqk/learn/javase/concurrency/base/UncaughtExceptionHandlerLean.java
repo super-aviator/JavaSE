@@ -12,7 +12,7 @@ import java.util.concurrent.ThreadFactory;
  * 2.如果所有线程池都需要相同的UncaughtExceptionHandler，则只需要设置Thread的静态成员变量即可
  *
  * @author 熊乾坤
- * @date 2020-07-14 8:52
+ * @since 2020-07-14 8:52
  */
 public class UncaughtExceptionHandlerLean {
     public static void main(String[] args) {

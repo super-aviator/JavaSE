@@ -2,7 +2,7 @@ package com.xqk.learn.javase.concurrency.cachecoherence;
 
 /**
  * @author 熊乾坤
- * @date 2020-07-16 17:03
+ * @since 2020-07-16 17:03
  */
 public class EvenGenerator implements IntGenerator {
     private volatile boolean status = true;

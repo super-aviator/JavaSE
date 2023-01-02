@@ -9,7 +9,7 @@ import java.util.stream.Stream;
  * concat函数拼接两个流，将后一个流拼接到前一个流的后面
  *
  * @author 熊乾坤
- * @date 2019/9/17 13:14
+ * @since 2019/9/17 13:14
  */
 public class FlatMap {
     private static Random rand = new Random(47);

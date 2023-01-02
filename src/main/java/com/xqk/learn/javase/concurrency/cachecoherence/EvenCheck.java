@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 
 /**
  * @author 熊乾坤
- * @date 2020-07-16 16:45
+ * @since 2020-07-16 16:45
  */
 public class EvenCheck implements Runnable {
     private int id;

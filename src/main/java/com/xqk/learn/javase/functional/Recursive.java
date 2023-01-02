@@ -4,7 +4,7 @@ package com.xqk.learn.javase.functional;
  * lambda也可以进行递归操作
  *
  * @author 熊乾坤
- * @date 2019-9-16
+ * @since 2019-9-16
  */
 public class Recursive {
     private RecursiveInterface ri;

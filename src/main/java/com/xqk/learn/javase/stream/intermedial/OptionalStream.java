@@ -8,7 +8,7 @@ import java.util.stream.Stream;
  * 如何操作Optional的流？
  *
  * @author 熊乾坤
- * @date 2019/9/19 9:12
+ * @since 2019/9/19 9:12
  */
 public class OptionalStream {
     private static final String[] STREAM = {"my", "name", "is", "xqk"};

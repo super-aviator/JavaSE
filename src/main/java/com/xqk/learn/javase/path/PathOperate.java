@@ -6,7 +6,7 @@ import java.nio.file.Paths;
  * Path支持的操作。
  *
  * @author 熊乾坤
- * @date 2019/9/24 10:49
+ * @since 2019/9/24 10:49
  */
 public class PathOperate {
     public static void main(String[] args) {

@@ -15,7 +15,7 @@ import com.xqk.learn.javase.exception.exceptions.OriginalException;
  * 不能基于异常说明来重载方法
  *
  * @author 熊乾坤
- * @date 2020-02-04 14:53
+ * @since 2020-02-04 14:53
  */
 public class ExceptionRestrict extends AbstractClass {
     public static void main(String[] args) {

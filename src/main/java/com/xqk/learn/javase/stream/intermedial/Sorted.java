@@ -7,7 +7,7 @@ import java.util.stream.Stream;
  * sorted方法能够对流中的元素进行排序，可以指定一个自定义的比较器，也可以使用Comparator自带的比较器
  *
  * @author 熊乾坤
- * @date 2019/9/16 19:17
+ * @since 2019/9/16 19:17
  */
 public class Sorted {
     public static void main(String[] args) {

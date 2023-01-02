@@ -4,7 +4,7 @@ package com.xqk.learn.javase.concurrency.TheBeautyOfJavaConcurrency.chapter1;
  * 线程本地变量
  *
  * @author 熊乾坤
- * @date 2020-11-18 10:04
+ * @since 2020-11-18 10:04
  */
 public class ThreadLocalTest {
     private static final ThreadLocal<String> THREAD_LOCAL = new ThreadLocal<>();

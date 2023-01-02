@@ -10,7 +10,7 @@ import java.util.function.BiFunction;
  * 2. 方法引用是响应式的，将某个对象的方法赋值给方法引用，对象的修改会响应给方法引用。
  *
  * @author 熊乾坤
- * @date 2019-8-14
+ * @since 2019-8-14
  */
 public class MethodReference {
 

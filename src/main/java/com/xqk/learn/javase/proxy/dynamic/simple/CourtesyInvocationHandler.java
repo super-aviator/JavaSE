@@ -28,7 +28,7 @@ import java.lang.reflect.Method;
  * 方法的Method对象上的getExceptionTypes调用而返回的异常类型都必然会由invoke方法成功抛出。
  *
  * @author 熊乾坤
- * @date 2020-02-04 20:58
+ * @since 2020-02-04 20:58
  */
 public class CourtesyInvocationHandler implements InvocationHandler {
     private CourtesyInterface ci;

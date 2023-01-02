@@ -6,7 +6,7 @@ package com.xqk.learn.javase.polymorphic;
  * 因此不会产生意想不到的结果。你可能无法永远遵循这条规范，但应该朝着它努力。
  *
  * @author 熊乾坤
- * @date 2019-8-22
+ * @since 2019-8-22
  */
 public class PolymorphicWithConstructor {
     public static void main(String[] args) {

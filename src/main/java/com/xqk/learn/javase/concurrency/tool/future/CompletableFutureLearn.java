@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
 
 /**
  * @author 熊乾坤
- * @date 2020-07-12 18:51
+ * @since 2020-07-12 18:51
  */
 public class CompletableFutureLearn {
 
