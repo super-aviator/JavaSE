@@ -4,12 +4,19 @@ package com.xqk.learn.onjava.enums;
  * @author xiongqiankun
  * @since 2023/1/2 15:16
  */
-public enum OzWitch {
-    WEST("W"), NORTH("N"), EAST("E"), SOUTH("S");
+public enum OzWitchEnums {
+    /** WEST */
+    WEST("W"),
+    /** NORTH */
+    NORTH("N"),
+    /** EAST */
+    EAST("E"),
+    /** SOUTH */
+    SOUTH("S");
 
     private final String description;
 
-    OzWitch(String description) {
+    OzWitchEnums(String description) {
         this.description = description;
     }
 
