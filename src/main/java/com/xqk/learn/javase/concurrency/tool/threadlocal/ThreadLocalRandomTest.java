@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.concurrent.tool.threadlocalrandom;
+package com.xqk.learn.javase.concurrency.tool.threadlocal;
 
 
 import java.util.concurrent.ThreadLocalRandom;
