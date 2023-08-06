@@ -7,7 +7,7 @@ import com.xqk.learn.javase.util.concurrent.Nap;
  * @since 2019-12-20 14:46
  */
 public class NapTask implements Runnable {
-    private long id;
+    private final long id;
 
     public NapTask(long id) {
         this.id = id;
