@@ -10,8 +10,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>lombok</module>
         <module>basic</module>
+        <module>beauty-of-java-concurrency</module>
+        <module>java-concurrency-programmer-design-in-action</module>
+        <module>onjava</module>
     </modules>
 
     <properties>
