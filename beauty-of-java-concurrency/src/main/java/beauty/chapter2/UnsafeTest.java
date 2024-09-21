@@ -1,6 +1,5 @@
-package com.xqk.learn.javase.concurrency.TheBeautyOfJavaConcurrency.chapter2;
+package beauty.chapter2;
 
-import org.junit.jupiter.api.Test;
 import sun.misc.Unsafe;
 
 /**
@@ -8,7 +7,11 @@ import sun.misc.Unsafe;
  * @since 2020-11-19 8:55
  */
 public class UnsafeTest {
-    @Test
+    public static void main(String[] args) {
+        var unsafeTest = new UnsafeTest();
+        unsafeTest.parkTest();
+    }
+
     public void parkTest() {
         System.out.println("Unsafe park start");
         synchronized (this) {

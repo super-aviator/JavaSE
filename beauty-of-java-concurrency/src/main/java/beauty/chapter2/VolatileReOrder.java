@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.concurrency.TheBeautyOfJavaConcurrency.chapter2;
+package beauty.chapter2;
 
 /**
  * @author 熊乾坤

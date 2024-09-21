@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.concurrency.TheBeautyOfJavaConcurrency.chapter1;
+package beauty.chapter1;
 
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
