@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.designpattern.singleton;
+package com.xqk.learn.javase.designpattern.create.singleton;
 
 import java.io.Serializable;
 
@@ -19,5 +19,9 @@ public class StaticFieldSingleton implements Serializable {
         if (STATIC_FIELD_SINGLETON != null) {
             throw new RuntimeException();
         }
+    }
+
+    public void doSomething() {
+        // 执行某些操作
     }
 }

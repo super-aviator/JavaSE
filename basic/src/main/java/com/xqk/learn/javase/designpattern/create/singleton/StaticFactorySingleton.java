@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.designpattern.singleton;
+package com.xqk.learn.javase.designpattern.create.singleton;
 
 /**
  * 静态工程的方式实现单例模式
@@ -15,6 +15,10 @@ public class StaticFactorySingleton {
         if (STATIC_FACTORY_SINGLETON != null) {
             throw new RuntimeException();
         }
+    }
+
+    public void doSomething() {
+        // 执行某些操作
     }
 
     public static StaticFactorySingleton getInstance() {

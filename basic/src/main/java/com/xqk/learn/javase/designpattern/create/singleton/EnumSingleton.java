@@ -1,4 +1,4 @@
-package com.xqk.learn.javase.designpattern.singleton;
+package com.xqk.learn.javase.designpattern.create.singleton;
 
 /**
  * 基于枚举的单例模式
