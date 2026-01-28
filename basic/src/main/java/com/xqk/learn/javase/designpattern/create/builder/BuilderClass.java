@@ -34,6 +34,9 @@ public class BuilderClass {
         private int param3;
 
         public BuilderClass build() {
+            if (param1 == null || param1.length() == 0) {
+                throw new IllegalArgumentException("param1 cannot be null or empty");
+            }
             return new BuilderClass(this);
         }
 

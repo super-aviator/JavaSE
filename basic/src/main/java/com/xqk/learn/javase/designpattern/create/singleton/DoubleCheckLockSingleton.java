@@ -9,6 +9,7 @@ package com.xqk.learn.javase.designpattern.create.singleton;
  * @author 熊乾坤
  */
 public class DoubleCheckLockSingleton {
+    //volatile关键字是必须的，因为存在指令重排序，导致外部访问到未初始化的STATIC_FIELD_SINGLETON指向的对象
     private static volatile DoubleCheckLockSingleton STATIC_FIELD_SINGLETON;
 
     private DoubleCheckLockSingleton() {
